@@ -13,6 +13,9 @@ P {
 h1{
    
     color: darkblue;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
 }
 
 h2{
@@ -21,4 +24,35 @@ h2{
 
 h3{
     color: darkcyan;
+}
+
+parrafo {
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+main{
+    background-color: burlywood;
+}
+
+header{
+    text-align: center;
+    
+}
+
+
+form{
+    
+    max-width: 600px; /*limita el ancho del formulario*/
+    margin: 0 auto; /*centra el formlario*/
+    background-color: blanchedalmond;
+    border-radius: 10px; /*bordes redondeados*/
+}
+
+/*estilizar etiquetas*/
+label{
+    font-size: 14px;
+    font-weight: bolder; /*grosor del texto*/
+    
 }
